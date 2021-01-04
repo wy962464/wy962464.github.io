@@ -1,0 +1,333 @@
+.banxin{
+    width: 990px;
+    margin: 0 auto;
+}
+.DLYM{
+    height: 700px;
+}
+.DLYM_1{
+    height: 80px;
+}
+.logo{
+    width: 300px;
+    margin: 10px 0;
+    position: relative;
+    height: 60px;
+    float: left;
+}
+.logo  a img{
+    width: 170px;
+    height: 60px;
+}
+.logo>b{
+    display: block;
+    width: 110px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: url("https://misc.360buyimg.com/user/passport/1.0.0/css/i/l-icon.png") no-repeat;
+    float: left;
+}
+.DLYM_1>a{
+    position: relative;
+    color: #999;
+    float: right;
+    top: 52px;
+    font-size: 12px;
+    text-decoration: none;
+}
+.DLYM_1>a>b{
+    display: inline-block;
+    width: 18px;
+    height: 14px;
+    margin: 0 5px;
+    background: url("https://misc.360buyimg.com/user/passport/1.0.0/css/i/q-icon.png") no-repeat;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.DLYM_1>a:hover{
+       color: red;
+      text-decoration: underline;
+}
+.top_1{
+    background: #fff8f0;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+}
+ .top_1 p a{
+    color: #333;
+ }
+ .top_2{
+     position: relative;
+     margin: 0 auto;
+     width: 772px;
+ }
+ .top_1 i{
+    position: absolute;
+    background: url("https://misc.360buyimg.com/user/passport/1.0.0/widget/login-form-2018-0827/i/icon-tips.png");
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 5px;
+    left: -20px;
+    top: 0;
+ }
+ .banner{
+    position: relative;
+    height: 475px;
+    margin: 10px 0 20px;
+    z-index: 5;
+}
+.banner_2_1{
+    background-color: #e93854;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 475px;
+    background: #e93854;
+ }
+ .w div{
+     background: url("https://img11.360buyimg.com/da/jfs/t16363/164/2298198848/33213/870500f1/5aa68632Nd7790d0c.png") 0px 0px no-repeat;
+    background-color: #e93854;
+    position: relative;
+    z-index: 3;
+    height: 475px;
+ }
+ .banner_1{
+    float: right;
+    top: 10px;
+    position: relative;
+    z-index: 4;
+    background: #fff;
+    overflow: visible;
+    width: 346px;
+ }
+ .banner_1_1{
+    background: #fff8f0;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+ }
+ .banner_1_1 div p i {
+    background: url("https://misc.360buyimg.com/user/passport/1.0.0/widget/login-form-2018-0827/i/icon-tips.png");
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 5px;
+ }
+ .banner_1_1>div{
+    background: #fff8f0;
+    width: 100%;
+    text-align: center;
+ }
+ .banner_1_2{
+     width: 173px;
+     height: 54px;
+    font-size: 18px;
+    font-family: "microsoft yahei";
+    text-align: center;
+    border-bottom: 1px solid #f4f4f4;
+    position: absolute;
+    background: #fff;
+    display: block;
+}
+.banner_1_3 a{
+    font-weight: 700;
+    color: #e4393c;
+    width: 99%;
+    height: 18px;
+    position: absolute;
+    left: 0;
+    top: 18px;
+    border-right: 1px solid #f4f4f4;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+}
+.banner_1_3{
+    width: 173px;
+    height: 54px;
+    font-size: 18px;
+    font-family: "microsoft yahei";
+    text-align: center;
+    border-bottom: 1px solid #f4f4f4;
+    position: absolute;
+    background: #fff;
+    display: block;
+    right:0 ;
+}
+.banner_1_2 a{
+    width: 99%;
+    height: 18px;
+    position: absolute;
+    left: 0;
+    top: 18px;
+    border-right: 1px solid #f4f4f4;
+    text-decoration: none;
+    color: #666;
+}
+.banner_1_4{
+    display: block;
+    visibility: visible;
+    width: 306px;
+    padding: 20px 18px 20px 20px;
+    text-align: center;
+}
+.banner_1_4{
+    display: block;
+    visibility: visible;
+    width: 306px;
+    padding: 20px;
+}
+.banner_1_4_1{
+    height: 64px;
+    display: block;
+    width: 306px;
+    overflow: visible;
+}
+ .sr_1{
+    border: 1px solid #bdbdbd;
+    height: 38px;
+    width: 304px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.sr_1 label {
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    width: 38px;
+    height: 38px;
+    border-right: 1px solid #bdbdbd;
+    background: url("https://misc.360buyimg.com/user/passport/1.0.0/widget/login-form-2018-0827/i/pwd-icons-new.png") no-repeat;
+}
+.sr_1 input{
+    line-height: 18px;
+    height: 18px;
+    border: 0;
+    padding: 10px 0 10px 50px;
+    width: 254px;
+    float: none;
+    overflow: hidden;
+    font-size: 14px;
+    font-family: '\5b8b\4f53';
+}
+.sr_2{
+    border: 1px solid #bdbdbd;
+    height: 38px;
+    width: 304px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.sr_2 label {
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    width: 38px;
+    height: 38px;
+    border-right: 1px solid #bdbdbd;
+    background: url("https://misc.360buyimg.com/user/passport/1.0.0/widget/login-form-2018-0827/i/pwd-icons-new.png") no-repeat;
+    background-position: -48px 0;
+}
+.sr_2 input{
+    line-height: 18px;
+    height: 18px;
+    border: 0;
+    padding: 10px 0 10px 50px;
+    width: 254px;
+    float: none;
+    overflow: hidden;
+    font-size: 14px;
+    font-family: '\5b8b\4f53';
+}
+.wjmm .wjmm_1{
+    color: #666;
+}
+.wjmm .wjmm_1 span a{
+    display: inline;
+    width: 64px;
+    float: right;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+.wjmm_btn{
+    margin-bottom: 10px;
+    border: 1px solid #e85356;
+    display: block;
+    width: 302px;
+    background: #e4393c;
+    height: 31px;
+    line-height: 31px;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Microsoft YaHei';
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+}
+.wjmm_btn a{
+      color: white;
+      line-height: 31px;
+}
+.banner_1_5{
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 50px;
+    border-top: 1px solid #f4f4f4;
+    height: auto;
+    background-color: #fcfcfc;
+}
+.banner_1_5_1{
+       float: right;
+}
+.banner_1_5_1 a{
+    color: #b61d1d;
+}
+.banner_1_5_1 a:hover{
+    text-decoration: underline;
+}
+.banner_1_5_1 a i{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    background: url("https://misc.360buyimg.com/user/passport/1.0.0/widget/login-form-2018-0827/i/pwd-icons-new.png") -104px -75px no-repeat;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+ .footer_1{
+    padding-bottom: 30px;
+    text-align: center;
+}
+.footer_1 ul{
+    width: 990px;
+    height: 17px;
+}
+.footer_1 ul li{
+    text-align: center;
+    margin: 0 8px;
+    float: left;
+    font-size:12px ;
+    color: #666;
+}
+.footer_1 ul li span{
+    margin: 0 8px;
+}
+.bq{
+    margin: 10px 0;
+    font-size: 12px;
+    color: #666;
+}

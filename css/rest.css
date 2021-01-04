@@ -5,7 +5,7 @@ body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,s
 }
 /*设置html字号为100px*/
 html{
-    font-size: 20px;
+    font-size: 12px;
 }
 /* 设置全局默认字号和字体 */
 body{

@@ -5,8 +5,9 @@
 .DLYM{
     height: 700px;
 }
-.DLYM_1{
-    height: 80px;
+.DLYM_1_{
+    height: 110px;
+    background: url("https://misc.360buyimg.com/user/reg/3.0.0/css/i/headbg.jpg") repeat-x left bottom;
 }
 .logo{
     width: 300px;
@@ -51,16 +52,66 @@
     right: 0;
     bottom: 32px;
 }
+.logo_1>i{
+    color: #999;
+}
+.logo_1>a{
+    color: #e22;
+}
 .logo_1>a:hover{
-       color: red;
       text-decoration: underline;
 }
-
-
-
-
-
-
+.banner{
+    width: 1210px;
+    margin:  0 auto;
+    height: 505px;
+}
+.main{
+    margin: 186px auto 186px;
+    width: 400px;
+    color: #666;
+}
+.main_1,.main_3,.main_5{
+    border-color: rgb(153, 153, 153);
+    border: solid 1px #ddd;
+    width: 398px;
+    height: 52px;
+}
+.main_2,.main_4,.main_6{
+    color: #c5c5c5;
+    height: 27px;
+    font-size: 12px;
+    padding-top: 5px;
+}
+label{
+    float: left;
+    width: 87px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 20px;
+}
+input{
+    border: 0 none;
+    font-size: 14px;
+    width: 190px;
+    height: 19px;
+    padding-bottom: 11px;
+    padding-left: 20px;
+    padding-top: 16px;
+}
+.btn{
+    width: 100%;
+    height: 54px;
+    line-height: 54px;
+    text-align: center;
+    color: #fff;
+    background: #e2231a;
+    border: 0;
+    font-size: 16px;
+    font-family: "Microsoft YaHei","Hiragino Sans GB";
+    cursor: pointer;
+    outline: none;
+}
 
 
 .footer_1{
@@ -70,6 +121,7 @@
 .footer_1 ul{
     width: 990px;
     height: 17px;
+    margin: 0 auto;
 }
 .footer_1 ul li{
     text-align: center;

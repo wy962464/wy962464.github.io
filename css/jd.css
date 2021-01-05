@@ -14,47 +14,99 @@ body{
     width: 1192px;
     height: 30px;
 }
-.top .top1 ul:nth-child(1){
+.top .top1>ul:nth-child(1){
     width: 58px;
     float: left;
     text-align: center;
+    position: relative;
 }
-.top .top1 ul:nth-child(1) li a{
+.top .top1>ul:nth-child(1) li a{
     display: inline-block;
     text-align: center;
     height: 30px;
 }
-.top .top1 ul:nth-child(1) li a i{
+.top .top1>ul:nth-child(1) li a i{
     display: inline-block;
      height: 14px;
      font-size: 11px;
 }
-.top .top1 ul:nth-child(1) li a span{
+.top .top1>ul:nth-child(1) li a span{
     display:inline-block;
     height: 30px;
     font-size: 11px;
     color: #999999;
     line-height: 30px;
 }
-.top .top1 ul:nth-child(1)>li{
+.top .top1>ul:nth-child(1)>li{
     height: 30px;
-    position: relative;
 }
-.top .top1 ul:nth-child(1)>li:hover{
+.top .top1>ul:nth-child(1)>li:hover{
      background: white;
 }
-.dp:hover {
+.top .top1>ul:nth-child(1):hover .dq{
     display: block;
 }
 .dq{
     position: absolute;
     top: 31px;
     left: 0;
-    width: 250px;
-    height: 500px;
-    background: cyan;
+    width: 320px;
+    height: 370px;
+    background:white ;
     display: none;
+    z-index: 6;
+    border: 1px solid #ccc;
+    border-top: none;
 }
+.dq ul{
+    width: 320px;
+    height: 220px;
+    margin-top: 12px;
+    border-bottom: 1px dashed #ccc;
+}
+.dq ul li:hover {
+      color: #f10215;
+      background: #ccc;
+}
+.dq ul li:hover a {
+    color: #f10215;
+}
+.dq ul li{
+    margin-left: 12px;
+    margin-right: 12px;
+     float: left;
+     width: 37px;
+     line-height: 26px;
+}
+.dq ul li a{
+    font-size: 12px;
+    color: #999;
+    text-align: left;
+}
+.dq dl{
+    margin-top: 12px;
+    height: 120px;
+    border-bottom: 1px dashed #ccc;
+      margin-left: 12px;
+}
+.dq dl dt{
+    text-align: left;
+    font-size: 12px;
+    color: #999;
+}
+.dq dl dd{
+    float: left;
+    font-size: 12px;
+    margin: 19px 28px 0 28px ;
+}
+.dq dl dd a{
+    color: #999;
+}
+.dq dl dd:hover a{
+    color:#f10215 ;
+}
+
+
 .top .top1 ul:nth-child(2){
     float: right;
 }
@@ -161,7 +213,7 @@ padding-right: 7px;
 #search{
     position: relative;
      width: 1192px;
-     height: 60px;
+     height: 66px;
 }
 #search .form{
     position: absolute;
@@ -276,13 +328,129 @@ padding-right: 7px;
     height: 480px;
     margin-right: 10px;
 }
-.banner_1_1>ul{
+.banner_1_1 .jydq{
+      position: absolute;
+      width: 979px;
+      height: 466px;
+      background: #fefefe;
+      z-index: 2;
+      left: 208px;
+      top: 0;
+      border: 2px solid #ccc;
+      display: none;
+}
+.banner_1_1>ul li:hover .jydq {
+       display: block;
+ }  
+ .banner_1_1  .jydq_1 {
+    padding: 20px 0 10px;
+ }
+ .banner_1_1  .jydq_1_  {
     overflow: hidden;
+    padding-left: 20px;
+    height: 24px;
+ }
+ .banner_1_1  .jydq_1_  a{
+    float: left;
+    margin-right: 10px;
+    padding: 0 10px;
+    height: 24px;
+    background-color: #333;
+    line-height: 24px;
+    color: #fff;
+ }
+ .banner_1_1  .jydq_1_  a:hover {
+     background-color:#e1251b ;
+     color: #f4f4f4;
+ }
+ .jydq_2{
+    position: relative;
+    padding: 10px 0 0 20px;
+    width: 790px;
+ }
+ .jydq_2 dl{
+    position: relative;
+    padding-left: 80px;
+ }
+ .jydq_2 dl dt{
+     overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 2px;
+    width: 70px;
+    text-align: right;
+    font-weight: 700;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+ }
+ .jydq_2 dl dt a{
+    color: #333;
+    font-weight: 700;
+    text-align: right;
+    white-space: nowrap;
+ }
+ .jydq_2 dl dd{
+    overflow: hidden;
+    padding: 4px 0;
+ }
+ .jydq_2 dl dd a{
+    float: left;
+    margin: 3px 0;
+    padding: 0 7px;
+    height: 16px;
+    line-height: 16px;
+    white-space: nowrap;
+    color: #666;
+ }
+ .jydq_right{
+    margin: auto;
+    width: 168px;
+    font-size: 0;
+     position: absolute;
+     float: right;
+     right: 10px;
+     top: 40px;
+     line-height: 0;
+ }
+ .jydq_right a{
+    overflow: hidden;
+    display: inline-block;
+    width: 83px;
+    height: 35px;
+    margin: 0 0 1px 1px;
+    background-color: #e7e7e7;
+    
+ }
+ .jydq_right a img{
+    width: 83px;
+    height: 35px;
+ }
+ .jydq_right_bot{
+    margin: auto;
+    width: 168px;
+    font-size: 0;
+     position: absolute;
+     float: right;
+     right: 10px;
+    bottom: 8px;
+     line-height: 0;
+ }
+ .jydq_right_bot a{
+    overflow: hidden;
+    display: inline-block;
+    width: 168px;
+    height: 134px;
+    margin: 0 0 1px 1px;
+    background-color: #e7e7e7;
+    
+ }
+.banner_1_1>ul{
     padding: 10px 0;
     height: 450px;
     background-color: #fefefe;
     color: #636363;
     margin-top: 10px;
+     position: relative;
 }
 .banner_1_1>ul li{
     height: 25px;
@@ -294,7 +462,10 @@ padding-right: 7px;
 }
 .banner_1_1>ul li a{
    color: #333;
-font-size: 14px;
+font-size: 12px;
+}
+.banner_1_1>ul li:hover{
+   background-color: #d9d9d9;
 }
 .banner_1_1>ul li  a:hover{
        color:#e1251b ;
@@ -523,9 +694,149 @@ font-size: 14px;
     background: #fff
 }
 .banner_1_5_1 ul{
+    position: relative;
     padding-top: 5px;
     height: 225px;
 }
+.tab{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 174px;
+    height: 234px;
+    background: #ffffff;
+    border-top: 1px solid red;
+    font-size: 12px;
+    color: #666666;
+    display: none;
+}
+.tab_top{
+ width: 100%;
+ height: 36px;
+ position: relative;
+}
+.B{
+    color:red;
+}
+.C{
+    color: blue;
+}
+.hfcz_footer i{
+  position: absolute;
+  display: block;
+  width: 20px;
+  height: 20px;
+  bottom: -28px;
+  left: 68px;
+  border-radius: 50%;
+  color: black;
+  line-height: 20px;
+  font-size: 16px;
+  text-align: center;
+}
+.hfcz_footer_2  i{
+    bottom: -63px;
+    left: 68px;
+}
+.hfcz_footer i:hover{
+    background: #c81623;
+    color: #fcf4f5;
+}
+.tab_top_1,.tab_top_2,.tab_top_3{
+    margin: 4px 17px 0 17px;
+    line-height: 25px;
+    float: left;
+}
+.tab_top_main{
+    padding-left: 12px;
+    position: absolute;
+    left: 0;
+    top: 36px;
+}
+.tab_top_main_1{
+    width: 100%;
+    height: 30px;
+    position: relative;
+}
+.hfcz,.llcz{
+    float: left;
+    line-height: 24px;
+    margin: 0 4px;
+    height: 28px;
+}
+.hfcz_{
+    width: 165px;
+    position: absolute;
+    top: 28px;
+    left: 9px;
+    display: block;
+}
+.llcz_{
+    width: 165px;
+    position: absolute;
+    top: 28px;
+    left: 9px;
+    height: 100px;
+    display: none;
+}
+.llcz_  .hfcz_footer_3 a{
+    line-height: 29px;
+}
+.ll{
+    height: 30px;
+}
+.phone{
+    height: 30px;
+    width: 100%;
+    line-height: 22px;
+}
+.phone input{
+width: 122px;
+height: 18px;
+border: 1px solid #e7e7e7;
+text-indent: 0.6em;
+}
+.money{
+    width: 100%;
+    height: 30px;
+}
+.money select{
+    width: 122px;
+    height: 18px;
+    border: 1px solid #e7e7e7;
+    text-indent: 0.3em;
+}
+.hfcz_footer .hfcz_footer_1{
+    color: #e01222;
+    line-height: 1;
+    display: inline-block;
+    margin: 10px 0;
+}
+.hfcz_footer .hfcz_footer_2 input{
+    width: 60px;
+    height: 20px;
+    background: #e40015;
+    color: #fff;
+    text-align: center;
+    line-height: 18px;
+    border: 0;
+    border-radius: 10px;
+    margin-right: 8px;
+    font-size: 12px;
+}
+.hfcz_footer .hfcz_footer_3{
+    color: #444444;
+    text-decoration: none;
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    color: #999;
+}
+ 
+
+
 .service_item {
     position: relative;
     float: left;
@@ -2490,9 +2801,9 @@ height: 100%;
     background-position: 0px -99px;
 } 
 #left{
-    position: fixed;
+    position: absolute ;
     left: 50%;
-    top: 75px;
+    top: 622px;
     margin-left: 615px;
     width: 58px;
     height: 348px;
@@ -2532,13 +2843,12 @@ height: 100%;
     z-index: 3;
 }
 #left ul li a:hover{
-    background: red;
+    background: green;
 }
 #left ul li:hover div span:nth-child(2){
     color: white;
 }
 #left>a{
-    display: block;
     height: 50px;
     padding-top: 10px;
     color: #e1251b;
@@ -2547,6 +2857,9 @@ height: 100%;
     line-height: 50px;
 }
 #left> a:hover {
-    background: red;
+    background: green;
     color: white;
+}
+.back{
+    display: none;
 }

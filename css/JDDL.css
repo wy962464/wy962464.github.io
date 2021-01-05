@@ -315,6 +315,7 @@
 .footer_1 ul{
     width: 990px;
     height: 17px;
+    margin: 0 auto;
 }
 .footer_1 ul li{
     text-align: center;

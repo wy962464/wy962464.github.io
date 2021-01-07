@@ -13,7 +13,7 @@ $(function(){
             $("#left").css({"position":"absolute","top":"622px",})
             $(".back").css({"display":"none"})
         }
-        if($(this).scrollTop()>=3000){
+        if($(this).scrollTop()>=2900){
             $(".a_8").css({"color":"red"})
             $(".a_3").css({"color":"#333"})
         }else if($(this).scrollTop()>=1900){
@@ -54,7 +54,7 @@ $(function(){
       var cut=null
    function show(){
           var timer1=new Date().getTime()
-                var timer2=new Date("2021,1,6 10:10 ").getTime()
+                var timer2=new Date("2021,1,9 10:10 ").getTime()
                    cut=parseInt((timer2-timer1)/1000)
                var day=parseInt(cut/(24*60*60))
                     cut =cut-24*60*60*day
@@ -161,7 +161,7 @@ var swiper = new Swiper('.swiper-container', {
         prevEl: '.swiper-button-prev',
     },
 });
-var swiper = new Swiper('.yixing', {
+var swiper1 = new Swiper('.yixing', {
     slidesPerView: 3,
     spaceBetween: 30,
     centeredSlides: true,

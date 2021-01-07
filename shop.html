@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="my">购物车</title>
+    <link rel="stylesheet" href="./css/shop.css">
+    <link rel="stylesheet" href="./css/rest.css">
+    <script src="./js/shop.js"></script>
+    <script src="./js/cookie.js"></script>
+    <script src="./js/jquery1.12.4.min.js"></script>
+</head>
+<body>
+    <div class="top">
+        <div class="top1  banxin">
+            <ul>
+                <li>
+                    <a href="">
+                        <i class="iconfont icon-location"></i>
+                        <span>广东</span>
+                    </a>
+                    <div class="dq">
+                        <ul>
+                            <li><a href="#">北京</a></li>
+                            <li><a href="#">上海</a></li>
+                            <li><a href="#">重庆</a></li>
+                            <li><a href="#">天津</a></li>
+                            <li><a href="#">河北</a></li>
+                            <li><a href="#">山西</a></li>
+                            <li><a href="#">河南</a></li>
+                            <li><a href="#">辽宁</a></li>
+                            <li><a href="#">吉林</a></li>
+                            <li><a href="#">黑龙江</a></li>
+                            <li><a href="#">内蒙古</a></li>
+                            <li><a href="#">江苏</a></li>
+                            <li><a href="#">山东</a></li>
+                            <li><a href="#">安徽</a></li>
+                            <li><a href="#">浙江</a></li>
+                            <li><a href="#">福建</a></li>
+                            <li><a href="#">湖北</a></li>
+                            <li><a href="#">湖南</a></li>
+                            <li><a href="#">广东</a></li>
+                            <li><a href="#">广西</a></li>
+                            <li><a href="#">江西</a></li>
+                            <li><a href="#">四川</a></li>
+                            <li><a href="#">海南</a></li>
+                            <li><a href="#">贵州</a></li>
+                            <li><a href="#">云南</a></li>
+                            <li><a href="#">西藏</a></li>
+                            <li><a href="#">陕西</a></li>
+                            <li><a href="#">甘肃</a></li>
+                            <li><a href="#">青海</a></li>
+                            <li><a href="#">宁夏</a></li>
+                            <li><a href="#">新疆</a></li>
+                            <li><a href="#">港澳</a></li>
+                            <li><a href="#">台湾</a></li>
+                            <li><a href="#">钓鱼岛</a></li>
+                            <li><a href="#">海外</a></li>
+                        </ul>
+                        <dl>
+                            <dt>地区专享版本</dt>
+                            <dd><a href="#">中國港澳</a></dd>
+                            <dd><a href="#">中國台灣</a></dd>
+                            <dd><a href="#">京东全球</a></dd>
+                        </dl>
+
+                    </div>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="./DL.html">你好,请登录
+                    </a>
+                    <a href="./index.html">兔费注册</a>
+                </li>
+                <li class="space"></li>
+                <li>
+                    <div class="dd">
+                        <a href="">我的订单</a>
+                    </div>
+                </li>
+                <li class="space"></li>
+                <li>
+                    <div>
+                        <a href="./jd.html">京东首页</a><i class="iconfont icon-xiangxiajiantou"></i>
+                    </div>
+                    <div></div>
+                </li>
+                <li class="space"></li>
+                <li>
+                    <div>
+                        <a href="">京东会员</a>
+                    </div>
+                </li>
+                <li class="space"></li>
+                <li>
+                    <div>
+                        <a href="">企业采购</a>
+                        <i class="iconfont icon-xiangxiajiantou"></i>
+                    </div>
+                    <div></div>
+                </li>
+                <li class="space"></li>
+                <li>
+                    <div>
+                        <a href="">客户服务</a>
+                        <i class="iconfont icon-xiangxiajiantou"></i>
+                    </div>
+                    <div></div>
+                </li>
+                <li class="space"></li>
+                <li>
+                    <div>
+                        <a href="">网站导航</a>
+                        <i class="iconfont icon-xiangxiajiantou"></i>
+                    </div>
+                    <div></div>
+                </li>
+                <li class="space"></li>
+                <li>
+                    <div>
+                        <a href="">手机京东</a>
+                    </div>
+                    <div></div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="header">
+        <div class=" header1 banxin">
+            <div id="logo">
+                <a href="" title="京东">京东</a>
+                <span>购物车</span>
+            </div>
+            <div id="search">
+                <div class="form">
+                    <input type="text">
+                    <span></span>
+                    <button>搜索</button>
+                </div>
+            </div>
+            <div id="treasure">
+                <a href="" title=""></a>
+            </div>
+        </div>
+    </div>
+
+    
+
+          <div class="all banxin"><a href="#">全部商品</a></div>  
+           <div>
+                 <div class="sp banxin">
+                     <div class="sp_top">
+                         <div class="sp_top_1">
+                             <div class="sp_top_a">
+                                  <input class="qx" type="checkbox" checked>
+                             </div>
+                             全选
+                         </div>
+                         <div class="sp_top_2">
+                              商品
+                         </div>
+                         <div class="sp_top_3"></div>
+                         <div class="sp_top_4">
+                             单价
+                         </div>
+                         <div class="sp_top_5">数量</div>
+                         <div class="sp_top_6">小计</div>
+                         <div class="sp_top_7">操作</div>
+                     </div>
+                     <div class="list">
+                         <div class="kong banxin">
+                                 空空如也
+                         </div>
+                         <!-- 添加列表 -->
+                             <div class="wp" >
+                                <div class="wp_">
+                                    <div class="wp_1">
+                                        <div class="wp_1_1">
+                                            <input class="qx_1" type="checkbox" checked>
+                                        </div>
+                                        <div class="wp_1_2">
+                                                <div class="wp_1_2_1">
+                                                        <div class="wp_1_2_1_img">
+                                                            <a href="javascript:;">
+                                                        <img src="https://img10.360buyimg.com/cms/s80x80_jfs/t1/125477/20/11441/43547/5f4e2293E02391add/cf8bee33b3ed4394.jpg" alt="">
+                                                            </a>
+                                                            </div>
+                                                        <div class="wp_1_2_1_text">
+                                                            三星Galaxy Z Fold2 5G(SM-F9160)折叠屏 双模5G手机 骁龙865+ 内外双屏 120Hz自适应屏幕 12GB+512GB松烟墨
+                                                            </div>
+                                                </div>
+                                        </div>
+                                        <div class="wp_1_3">
+                                              <p>松烟墨</p>
+                                              <p>12GB+512GB</p>
+                                        </div>
+                                        <div class="wp_1_4">
+                                             <p>¥<span class="money">1666</span></p>
+                                             <p><span>白条24期免息</span></p>
+                                        </div>
+                                        <div class="wp_1_5">
+                                                <div class="wp_1_5_1">
+                                                    <a href="javascript:;" class="jian">-</a>
+                                                    <input type="text" value="1" readonly="readonly">
+                                                    <a href="javascript:;" class="jia">+</a>
+                                                </div>
+                                        </div>
+                                        <div class="wp_1_6">
+                                            <strong class="xj ">¥0</strong>     
+                                        </div>
+                                        <div class="wp_1_7">
+                                               <a href="javascript:;" class="move">删除</a>
+                                         </div>
+                                </div>
+                                   </div>
+                             </div>
+                             <div class="wp" >
+                                <div class="wp_">
+                                    <div class="wp_1">
+                                        <div class="wp_1_1">
+                                            <input class="qx_1" type="checkbox" checked>
+                                        </div>
+                                        <div class="wp_1_2">
+                                                <div class="wp_1_2_1">
+                                                        <div class="wp_1_2_1_img">
+                                                            <a href="javascript:;">
+                                                        <img src="https://img10.360buyimg.com/cms/s80x80_jfs/t1/125477/20/11441/43547/5f4e2293E02391add/cf8bee33b3ed4394.jpg" alt="">
+                                                            </a>
+                                                            </div>
+                                                        <div class="wp_1_2_1_text">
+                                                            三星Galaxy Z Fold2 5G(SM-F9160)折叠屏 双模5G手机 骁龙865+ 内外双屏 120Hz自适应屏幕 12GB+512GB松烟墨
+                                                            </div>
+                                                </div>
+                                        </div>
+                                        <div class="wp_1_3">
+                                              <p>松烟墨</p>
+                                              <p>12GB+512GB</p>
+                                        </div>
+                                        <div class="wp_1_4">
+                                             <p>¥<span class="money">1666</span></p>
+                                             <p><span>白条24期免息</span></p>
+                                        </div>
+                                        <div class="wp_1_5">
+                                                <div class="wp_1_5_1">
+                                                    <a href="javascript:;" class="jian">-</a>
+                                                    <input type="text" value="1" readonly="readonly">
+                                                    <a href="javascript:;" class="jia">+</a>
+                                                </div>
+                                        </div>
+                                        <div class="wp_1_6">
+                                            <strong class="xj ">¥0</strong>     
+                                        </div>
+                                        <div class="wp_1_7">
+                                               <a href="javascript:;" class="move">删除</a>
+                                         </div>
+                                </div>
+                                   </div>
+                             </div>
+                             <div class="wp" >
+                                <div class="wp_">
+                                    <div class="wp_1">
+                                        <div class="wp_1_1">
+                                            <input class="qx_1" type="checkbox" checked>
+                                        </div>
+                                        <div class="wp_1_2">
+                                                <div class="wp_1_2_1">
+                                                        <div class="wp_1_2_1_img">
+                                                            <a href="javascript:;">
+                                                        <img src="https://img10.360buyimg.com/cms/s80x80_jfs/t1/125477/20/11441/43547/5f4e2293E02391add/cf8bee33b3ed4394.jpg" alt="">
+                                                            </a>
+                                                            </div>
+                                                        <div class="wp_1_2_1_text">
+                                                            三星Galaxy Z Fold2 5G(SM-F9160)折叠屏 双模5G手机 骁龙865+ 内外双屏 120Hz自适应屏幕 12GB+512GB松烟墨
+                                                            </div>
+                                                </div>
+                                        </div>
+                                        <div class="wp_1_3">
+                                              <p>松烟墨</p>
+                                              <p>12GB+512GB</p>
+                                        </div>
+                                        <div class="wp_1_4">
+                                             <p>¥<span class="money">1666</span></p>
+                                             <p><span>白条24期免息</span></p>
+                                        </div>
+                                        <div class="wp_1_5">
+                                                <div class="wp_1_5_1">
+                                                    <a href="javascript:;" class="jian">-</a>
+                                                    <input type="text" value="1" readonly="readonly">
+                                                    <a href="javascript:;" class="jia">+</a>
+                                                </div>
+                                        </div>
+                                        <div class="wp_1_6">
+                                            <strong class="xj ">¥0</strong>     
+                                        </div>
+                                        <div class="wp_1_7">
+                                               <a href="javascript:;" class="move">删除</a>
+                                         </div>
+                                </div>
+                                   </div>
+                             </div>
+                            
+                             
+                     </div>
+                     <div class="wp_2">
+                           <div class="wp_2_1">
+                                <div class="wp_2_2">
+                                    <input type="checkbox" class="qx" checked>
+                                </div>
+                                     全选
+                           </div>
+                           <div class="wp_3">
+                                <a href="javascript:;" class="qingkong">清空购物车</a>
+                           </div>
+                            <div class="wp_4">
+                                   <ul>
+                                       <li>
+                                           <div>
+                                               <span>总价：</span>
+                                               <span class="zj">¥0</span>
+                                           </div>
+                                       </li>
+                                       <li>
+                                           <a href="javascript:;" class="jiesuan">
+                                               去结算
+                                               <b></b>
+                                           </a>
+                                       </li>
+                                   </ul>
+                            </div>
+                     </div>
+                 </div>
+           </div>
+
+    <div id="footer">
+        <div class="footer1">
+            <div class="footer1_1 banxin">
+                <ul>
+                    <li>
+                        <div>
+                            <h5 class="duo"></h5>
+                            <p>品类齐全，轻松购物</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h5 class="kuai"></h5>
+                            <p>多仓直发，极速配送</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h5 class="hao"></h5>
+                            <p>正品行货，精致服务</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h5 class="sheng"></h5>
+                            <p>天天低价，畅选无忧</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer2">
+            <div class="footer2_1 banxin">
+                <div>
+                    <div>
+                        <h5>购物指南</h5>
+                        <ul>
+                            <li><a href="">购物流程</a></li>
+                            <li><a href="">会员介绍</a></li>
+                            <li><a href="">生活旅行</a></li>
+                            <li><a href="">常见问题</a></li>
+                            <li><a href="">大家电</a></li>
+                            <li><a href="">联系客服</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h5>购物指南</h5>
+                        <ul>
+                            <li><a href="">购物流程</a></li>
+                            <li><a href="">会员介绍</a></li>
+                            <li><a href="">生活旅行</a></li>
+                            <li><a href="">常见问题</a></li>
+                            <li><a href="">大家电</a></li>
+                            <li><a href="">联系客服</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h5>购物指南</h5>
+                        <ul>
+                            <li><a href="">购物流程</a></li>
+                            <li><a href="">会员介绍</a></li>
+                            <li><a href="">生活旅行</a></li>
+                            <li><a href="">常见问题</a></li>
+                            <li><a href="">大家电</a></li>
+                            <li><a href="">联系客服</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h5>购物指南</h5>
+                        <ul>
+                            <li><a href="">购物流程</a></li>
+                            <li><a href="">会员介绍</a></li>
+                            <li><a href="">生活旅行</a></li>
+                            <li><a href="">常见问题</a></li>
+                            <li><a href="">大家电</a></li>
+                            <li><a href="">联系客服</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h5>购物指南</h5>
+                        <ul>
+                            <li><a href="">购物流程</a></li>
+                            <li><a href="">会员介绍</a></li>
+                            <li><a href="">生活旅行</a></li>
+                            <li><a href="">常见问题</a></li>
+                            <li><a href="">大家电</a></li>
+                            <li><a href="">联系客服</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h5>京东自营覆盖区县</h5>
+                        <div>
+                            <p>京东已向全国2661个区县提供自营配送服务，支持货到付款、POS机刷卡和售后上门服务。</p>
+                            <p>查看详情</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer3">
+            <div class="footer3_1 banxin">
+                <p>
+                    <a href="">关于我们</a>
+                    <span class="span">|</span>
+                    <a href="">关于我们</a>
+                    <span class="span">|</span>
+                    <a href="">关于我们</a>
+                    <span class="span">|</span>
+                    <a href="">关于我们</a>
+                    <span class="span">|</span>
+                    <a href="">关于我们</a>
+                    <span class="span">|</span>
+                    <a href="">关于我们</a>
+                    <span class="span">|</span>
+                    <a href="">关于我们</a>
+                    <span class="span">|</span>
+                    <a href="">关于我们</a>
+                    <span class="span">|</span>
+                    <a href="">关于我们</a>
+                    <span class="span">|</span>
+                    <a href="">关于我们</a>
+                    <span class="span">|</span>
+                    <a href="">关于我们</a>
+                    <span class="span">|</span>
+                    <a href="">关于我们</a>
+                    <span class="span">|</span>
+                    <a href="">关于我们</a>
+                    <span class="span">|</span>
+                    <a href="">关于我们</a>
+                    <span class="span">|</span>
+                    <a href="">关于我们</a>
+                </p>
+                <div class="footer3_1_1">
+                    <div>
+                        <p>
+                            <a href="">京公网安备 11000002000088号</a>
+                            <span class="span">|</span>
+                            <a href="">京ICP证070359号</a>
+                            <span class="span">|</span>
+                            <a href="">互联网药品信息服务资格证编号(京)-经营性-2014-0008</a>
+                            <span class="span">|</span>
+                            <a href="">京公网安备 11000002000088号</a>
+                            <span class="span">|</span>
+                            <a href="">新出发京零&nbsp;字第大120007号</a>
+                        </p>
+                        <p>
+                            <span>互联网出版许可证编号新出网证(京)字150号</span>
+                            <span class="span">|</span>
+                            <a href="">出版物经营许可证</a>
+                            <span class="span">|</span>
+                            <a href="">网络文化经营许可证京网文[2014]2148-348号</a>
+                            <span class="span">|</span>
+                            <span>违法和不良信息举报电话：4006561155</span>
+                        </p>
+                        <p>
+                            <span>Copyright&nbsp;©&nbsp;2004&nbsp;-&nbsp;
+                                2020
+                                &nbsp;&nbsp;京东JD.com&nbsp;版权所有
+                            </span>
+                            <span>消费者维权热线：4006067733</span>
+                            <span class="span">|</span>
+                            <a href="">经营证照</a>
+                            <span class="span">|</span>
+                            <span>(京)网械平台备字(2018)第00003号</span>
+                            <span class="span">|</span>
+                            <a href="">营业执照</a>
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            <a href="">
+                                <i></i>Global Site
+                            </a>
+                            <span class="span">|</span>
+                            <a href="">
+                                <i></i>Сайт России
+                            </a>
+                            <span class="span">|</span>
+                            <a href="">
+                                <i></i>Situs Indonesia
+                            </a>
+                            <span class="span">|</span>
+                            <a href="">
+                                <i></i>Sitio de España
+                            </a>
+                            <span class="span">|</span>
+                            <a href="">
+                                <i></i>เว็บไซต์ประเทศไทย
+                            </a>
+
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            <span>京东旗下网站：</span>
+                            <a href="">京东钱包</a>
+                            <span class="span">|</span>
+                            <a href="">京东智联云</a>
+                        </p>
+                    </div>
+                </div>
+                <p class="qw">
+                    <a href="">可信网站信用评估</a>
+                    <a href="">网络警察提醒你</a>
+                    <a href="">诚信网站</a>
+                    <a href="" class="si">中国互联网举报中心</a>
+                    <a href="">网络举报APP下载</a>
+                    <a href="" class="liu">扫黄打非网举报专区</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

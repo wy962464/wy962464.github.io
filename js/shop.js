@@ -145,7 +145,6 @@ function removelist(num){
                   var price=(p*num)
                   $(this).parents(".wp_1_5").next().children().html("￥"+price)
                   getmoney()
-                  setCart(productList)
             })
             $(".jian").on("click",function(){
                var num=parseInt($(this).next().val()) 
@@ -158,7 +157,6 @@ function removelist(num){
                 var price=(p*num)
                 $(this).parents(".wp_1_5").next().children().html("￥"+price)
                 getmoney()
-
           })
         
           

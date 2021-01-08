@@ -91,7 +91,7 @@ window.onload=function(){
     })
     $(".add-").on("click",function(){
           if($(this).next().val()==1){
-                $(this).css({cursor:"not-allowed"})
+            $(this).css({cursor: "pointer"})
                $("add_2_val").val("1")
           }else{
             $(this).css({cursor: "pointer"})

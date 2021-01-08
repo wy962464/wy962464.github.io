@@ -734,6 +734,7 @@ font-size: 12px;
   line-height: 20px;
   font-size: 16px;
   text-align: center;
+  cursor: pointer;
 }
 .hfcz_footer_2  i{
     bottom: -63px;

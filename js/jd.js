@@ -54,7 +54,7 @@ $(function(){
       var cut=null
    function show(){
           var timer1=new Date().getTime()
-                var timer2=new Date("2021,1,9 10:10 ").getTime()
+                var timer2=new Date("2021,1,8  16:10 ").getTime()
                    cut=parseInt((timer2-timer1)/1000)
                var day=parseInt(cut/(24*60*60))
                     cut =cut-24*60*60*day
@@ -62,6 +62,7 @@ $(function(){
                     cut =cut-60*60*hour
                 var minter=parseInt(cut/60)
                 var second=cut-60*minter
+                console.log(hour,minter,second);
            if(hour<10){
             $(".main_hour_1").html("0"+`${hour}`);
            }else{

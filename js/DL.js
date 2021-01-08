@@ -14,27 +14,59 @@ window.onload=function(){
         $("#mm").val(decodeURIComponent(mm)) ;
     })
    }
+    //  $(".wjmm_btn").on("click",function(){
+    //        $.ajax({
+    //           type:"get",
+    //          url:"./DL.php",
+    //          data:{
+    //           username:$("#dl").val(),
+    //           password:$("#mm").val(),
+    //          },
+    //          dataType:"json",
+    //          success:function(res){
+    //             if(res.code==1){
+    //               alert("登录成功")
+    //               location.href = "./jd.html";
+    //             }else{
+    //               alert ("登陆失败,请输入正确的账号或者密码!");
+    //               $("#dl").val("");
+    //               $("#mm").val("");
+    //             }
+    //          } 
+    //        })
+    //  })
+
      $(".wjmm_btn").on("click",function(){
-           $.ajax({
-              type:"get",
-             url:"./DL.php",
-             data:{
-              username:$("#dl").val(),
-              password:$("#mm").val(),
-             },
-             dataType:"json",
-             success:function(res){
-                if(res.code==1){
-                  alert("登录成功")
-                  location.href = "./jd.html";
-                }else{
-                  alert ("登陆失败,请输入正确的账号或者密码!");
-                  $("#dl").val("");
-                  $("#mm").val("");
-                }
-             } 
-           })
-     })
+
+            // $.ajax({
+            //   url:"./details.json",
+            //   type:"get",
+            //   data:{
+            //     username:$("#dl").val(),
+            //     password:$("#mm").val(),
+            //   },
+            //   success:function(res){
+            //     if(res.code==1){
+            //       alert ("登录成功")
+            //      localStorage.setItem('name',$('#dl').val());
+            //      location.href = "./jd.html"
+            //     }
+                
+            //   }
+            // })
+             var un=localStorage.getItem("username")
+             var pw=localStorage.getItem("password")
+             console.log(un,pw);
+             if($("#dl").val()==un&&$("#mm").val()==pw){
+                     alert ("登陆成功")
+                     location.href = "./jd.html";
+             }else{
+                alert ("登陆失败,请输入正确的账号或者密码!")
+                $("#dl").val("");
+                $("#mm").val("");
+             }
+  
+      })
    
 }
 
